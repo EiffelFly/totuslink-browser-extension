@@ -25,11 +25,12 @@
 </template>
 <script>
 var browser = require("webextension-polyfill");
+import config from "../../config"
 export default {
   name: "HologramList",
   setup() {
     const openTotuslinkLoginPage = () => {
-      browser.tabs.create({'url':'https://www.totuslink.com/login'})
+      browser.tabs.create({'url':`${config.cookie_page}/login`})
     }
 
     return {

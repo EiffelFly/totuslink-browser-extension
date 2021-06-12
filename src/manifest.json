@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "totuslink_chrome_extension",
+  "version": "0.0.1",
+  "name": "Upload to Totuslink",
   "homepage_url": "https://www.totuslink.com",
-  "description": "An url-based curated-list platform built for efficient knowledge sharing.",
+  "description": "This extension can help you upload page to Totuslink",
   "default_locale": "en",
   "permissions": [
     "activeTab",
     "cookies",
     "https://www.totuslink.com/*",
-    "https://totuslink.com/*",
-    "http://localhost:8080/*"
+    "https://totuslink.com/*"
   ],
   "icons": {
     "16": "icons/16.png",
